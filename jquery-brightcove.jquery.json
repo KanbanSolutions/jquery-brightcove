@@ -1,0 +1,36 @@
+{
+  "name": "jquery-brightcove",
+  "title": "jQuery Brightcove",
+  "description": "A fast extensible pubsub system using jQuery Callbacks",
+  "keywords": [
+    "brightcove",
+    "mapi",
+    "bc-mapi",
+    "media api",
+    "media",
+    "api"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Kanban Solutions"
+  },
+  "maintainers": [
+    {
+      "name": "Kanban Solutions",
+      "email": "dj.gilcrease@kanbansolutions.com",
+      "url": "http://www.kanbansolutions.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/KanbanSolutions/jquery-brightcove/master/LICENSE.md"
+    }
+  ],
+  "bugs": "https://github.com/KanbanSolutions/jquery-brightcove/issues",
+  "homepage": "https://github.com/KanbanSolutions/jquery-brightcove",
+  "docs": "https://github.com/KanbanSolutions/jquery-brightcove",
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}
