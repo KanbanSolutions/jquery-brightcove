@@ -77,7 +77,7 @@
         _private.token = token;
     };
 
-    $.each(_private.calls, function(idx, cmd) {
+    $.each(_private.bc_api_map, function(idx, cmd) {
         _public[cmd.command] = (function(c) {
             return function() {
                 var params = {
