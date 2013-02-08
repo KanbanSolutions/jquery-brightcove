@@ -10,8 +10,8 @@ Brightcove MAPI (http://docs.brightcove.com/en/media/) wrapper for jQuery
     });
 
 Mapping commands directly on the DOM
-    <div class="bc-video" data-brightcove-command="find_video_by_reference_id" data-brightcove-arg-name="reference_id" data-brightcove-arg-value="hcnrej2i"></div>
 
+    <div class="bc-video" data-brightcove-command="find_video_by_reference_id" data-brightcove-arg-name="reference_id" data-brightcove-arg-value="hcnrej2i"></div>
     $('.bc-video').brightcove().done(function(element, data) {
         //This passes back the elements along with the data so you can continue processing without having to re-select the elements
         //Do something with the API
