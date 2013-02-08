@@ -1,7 +1,7 @@
 {
   "name": "jquery-brightcove",
   "title": "jQuery Brightcove",
-  "description": "rightcove MAPI wrapper for jQuery",
+  "description": "Brightcove MAPI wrapper for jQuery",
   "keywords": [
     "brightcove",
     "mapi",
@@ -10,7 +10,7 @@
     "media",
     "api"
   ],
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "Kanban Solutions"
   },
