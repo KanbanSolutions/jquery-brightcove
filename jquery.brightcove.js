@@ -112,7 +112,11 @@
 
         _public.execute(config.params)
             .done(function(data) {
-                deferred.resolve(els, data, _private.player_id);
+                if(!data) {
+                  deferred.reject(els, {error:'Failed to load Video', code:0});
+                } else {
+                  deferred.resolve(els, data, _private.player_id);
+                }
             })
             .fail(function() {
                 deferred.reject(els, {error:'Failed to load Video', code:0});
