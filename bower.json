@@ -1,0 +1,27 @@
+{
+  "name": "jquery-brightcove",
+  "version": "1.0.8",
+  "homepage": "https://github.com/KanbanSolutions/jquery-brightcove",
+  "authors": [
+    "DJ Gilcrease <dj.gilcrease@kanbansolutions.com>"
+  ],
+  "description": "Brightcove MAPI wrapper for jQuery that helps you create custom dynamic solutions that work with the Brightcove Video platform",
+  "main": "./jquery.brightcove.js",
+  "keywords": [
+    "brightcove",
+    "jquery",
+    "plugin"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.json",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
